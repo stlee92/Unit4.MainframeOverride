@@ -57,7 +57,6 @@ CREATE TABLE public.emptystack_accounts (
 --
 -- Name: forum_accounts; Type: TABLE; Schema: public; Owner: -
 --
-
 CREATE TABLE public.forum_accounts (
     username text NOT NULL,
     first_name text NOT NULL,
@@ -67,7 +66,7 @@ CREATE TABLE public.forum_accounts (
 
 --
 -- Name: forum_posts; Type: TABLE; Schema: public; Owner: -
---
+--\q
 
 CREATE TABLE public.forum_posts (
     id text NOT NULL,
